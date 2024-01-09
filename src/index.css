@@ -10,11 +10,51 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins";
-  
 }
-
 
 .wrapper {
   max-width: 100%;
   min-width: 100%;
+}
+
+#trip1 {
+  background-image: url("../src/assets/images/london.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px; /* Adjust height as needed */
+  width: 200px;
+  position: relative;
+  
+  
+}
+#trip2 {
+  background-image: url("../src/assets/images/paris.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px; /* Adjust height as needed */
+  width: 200px;
+  position: relative;
+ 
+}
+#trip3 {
+  background-image: url("../src/assets/images/rome.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px; /* Adjust height as needed */
+  width: 200px;
+  position: relative;
+  
+}
+#trip4 {
+  background-image: url("../src/assets/images/venice.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px; /* Adjust height as needed */
+  width: 200px;
+  position: relative;
+ 
 }

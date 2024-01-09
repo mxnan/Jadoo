@@ -7,11 +7,11 @@ import plane from "../assets/images/plane.svg";
 const Services = () => {
   return (
     <section className="wrapper">
-      <div className="pt-8 flex flex-col gap-4  items-center">
-        <h2 className=" capitalize text-center text-rose-600/75 font-semibold text-4xl tracking-tight">
+      <div className="pt-12 flex flex-col gap-4  items-center">
+        <h2 className=" capitalize text-center text-rose-600/75 font-semibold text-4xl md:text-6xl tracking-tight">
           we offer <strong className="text-rose-600">best</strong> services
         </h2>
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  md:gap-16 md:mt-24 gap-4 lg:gap-28">
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  max-md:gap-16 md:mt-24 gap-10 md:gap-28">
           <div className="relative bg-stone-200 py-6 rounded-3xl flex flex-col gap-6 justify-center items-center">
             <img src={service1} alt="service1" className="w-24 h-20 z-20" />
             <div className="flex flex-col gap-2 items-center w-[230px] ">
