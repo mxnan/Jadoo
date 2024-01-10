@@ -6,7 +6,7 @@ import { RiTaxiLine } from "react-icons/ri";
 const Booking = () => {
   return (
     <section className="wrapper">
-      <div className="pt-8 md:py-12 max-sm:pb-8 flex flex-col max-md:gap-6 lg:gap-16 max-md:items-center md:flex-row gap-4  ">
+      <div className="pt-8 md:py-12 lg:pt-16 max-sm:pb-8 flex flex-col max-md:gap-6 lg:gap-16 max-md:items-center md:flex-row gap-4  ">
         <div className="max-sm:px-3 sm:px-6 md:px-8 lg:px-12 flex flex-col ">
           <h2 className=" capitalize text-start text-rose-600/75 font-semibold text-4xl md:text-6xl tracking-tight">
             Book your <strong className="text-rose-600 capitalize">next</strong>{" "}

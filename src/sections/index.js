@@ -4,7 +4,7 @@ import Services from "./Services";
 import Destination from "./Destination";
 import Booking from "./Booking";
 import About from "./About";
-import Subscribe from "./Subscribe";
+
 import Footer from "./Footer";
 
 export {
@@ -14,6 +14,6 @@ export {
   Destination,
   Booking,
   About,
-  Subscribe,
+ 
   Footer,
 };

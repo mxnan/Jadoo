@@ -9,7 +9,7 @@ const Destination = () => {
           className=" capitalize text-center text-rose-600/75 font-semibold 
         text-4xl md:text-6xl tracking-tight"
         >
-          top <strong className="text-rose-600">destinations</strong>
+        <strong className="text-rose-600">top</strong> destination
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:px-32  max-md:gap-8 md:mt-20 gap-10 md:gap-16 justify-items-center px-4">
           <div
