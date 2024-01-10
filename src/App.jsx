@@ -8,6 +8,7 @@ import {
   
   Footer,
 } from "./sections";
+import './App.css'
 
 const App = () => {
   return (
