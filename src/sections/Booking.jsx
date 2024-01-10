@@ -7,7 +7,7 @@ const Booking = () => {
   return (
     <section className="wrapper">
       <div className="pt-8 md:py-12 max-sm:pb-8 flex flex-col max-md:gap-6 lg:gap-16 max-md:items-center md:flex-row gap-4  ">
-        <div className="sm:pt-4 px-2 flex flex-col items-center">
+        <div className="max-sm:px-3 sm:px-6 md:px-8 lg:px-12 flex flex-col ">
           <h2 className=" capitalize text-start text-rose-600/75 font-semibold text-4xl md:text-6xl tracking-tight">
             Book your <strong className="text-rose-600 capitalize">next</strong>{" "}
             trip in{" "}
@@ -61,9 +61,9 @@ const Booking = () => {
             </div>
           </div>
         </div>
-        <div className=" max-sm:hidden flex items-center justify-center w-1/2 ">
-          <div className="p-1 bg-black rounded-3xl flex items-center justify-center ">
-            <div id="booking" className="rounded-2xl">
+        <div className=" max-sm:hidden flex items-end w-1/2 ">
+          
+            <div id="booking" className="rounded-2xl border-2 border-black">
               <div className="bg-stone-100 w-2/5 absolute bottom-4 right-4 rounded-lg">
                 <div className="flex flex-col gap-2 p-4 ">
                   <h2 className="text-black font-bold text-lg capitalize">
@@ -81,7 +81,7 @@ const Booking = () => {
                 </div>
               </div>
             </div>
-          </div>
+          
         </div>
       </div>
     </section>
