@@ -18,7 +18,7 @@
 }
 
 #trip1 {
-  background-image: url("../src/assets/images/london.jpg") ;
+  background-image: url("./london.jpg") ;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,7 +27,7 @@
   position: relative;
 }
 #trip2 {
-  background-image: url("../src/assets/images/paris.jpg");
+  background-image: url("./paris.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,7 +36,7 @@
   position: relative;
 }
 #trip3 {
-  background-image: url("../src/assets/images/rome.jpg");
+  background-image: url("./rome.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -45,11 +45,27 @@
   position: relative;
 }
 #trip4 {
-  background-image: url("../src/assets/images/venice.jpg");
+  background-image: url("./venice.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: 300px; /* Adjust height as needed */
   width: 200px;
   position: relative;
+}
+#booking {
+  background-image: url("./Booking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px; /* Adjust height as needed */
+  width: 500px;
+  position: relative;
+}
+
+@media screen and (min-width: 1280px) {
+  #booking {
+    height: 400px; /* Adjust height for screens 1280px and above */
+    width: 650px; /* Adjust width for screens 1280px and above */
+  }
 }
